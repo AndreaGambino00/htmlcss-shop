@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {width: 80%;
+    margin: 0 auto;
+}
+
+.contenitore{
+    width: 1000px;
+    margin: auto;
+}
+
+.maglia-levis{
+    width: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+.maglia{
+   width: 300px;
+   height: 500px;
+}
+
+.prezzo-rosso{
+    color: red;
+}
+
+.maglia-levis > .cuore{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 40px;
+    background-color: white;
+}
+
+.maglia-levis > .sconto{
+    position: absolute;
+    top: 450px;
+    left: 0;
+    color: white;
+    background-color: red;
+}
+
+.maglia-levis > .sostenibilità{
+    position: absolute;
+    top: 450px;
+    left: 40px;
+    color: white;
+    background-color: green;
+}
+
+.maglia-levis > .sostenibilità1{
+    position: absolute;
+    top: 450px;
+    left: 0;
+    color: white;
+    background-color: green;
+}
+
+#maglia2{
+    display: none;
+}
+
+.maglia-levis:hover #maglia2{
+    display: block;
+}
+
+.maglia-levis:hover .maglia{
+    display: none;
+}
+
+p{
+    color: lightgray;
+}
